@@ -1,0 +1,138 @@
+*{
+    font-family: 'Roboto', sans-serif;
+    padding: 0;
+    margin: 0;
+}
+.header{
+    text-align: center;
+    background: #7d1148;
+    padding: 20px;
+    color: white;
+}
+.footer{
+    text-align: center;
+    background: #7d1148;
+    padding: 20px;
+    color: white;
+}
+form{
+    width: 95%;
+    margin: 20px 0px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+main{
+    display: flex;
+}
+label{
+    display: flex;
+    justify-content: space-between;
+    margin: 13px;
+    width: 95%;
+    position: relative;
+}
+input{
+    height: 22px;
+    width: 150px;
+}
+.mainContent{
+    width: 43%;
+    display: flex;
+    justify-content: center;
+    margin: 3px;
+    background: #b1cbef;
+}
+.leftSide{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    width: 28%;
+    color: white;
+    background: #0c0c54;
+    margin: 3px;
+}
+.rightSide{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    width: 28%;
+    color: white;
+    background: #0c0c54;
+    margin: 3px;
+}
+#send{
+    margin-top: 20px;
+    color: white;
+    background: #0c0c54;
+    width: 330px;
+    padding: 10px 0px;
+    border-radius: 45px;
+}
+
+#errorEmail{
+    position: absolute;
+    color: #ff0000;
+    left: 65%;
+    top: 26px;
+    font-weight: bolder;
+    visibility: hidden;
+    font-size: 14px;
+}
+
+#errorConfirmEmail{
+    position: absolute;
+    color: #ff0000;
+    left: 65%;
+    top: 26px;
+    font-weight: bolder;
+    visibility: hidden;
+    font-size: 14px;
+}
+
+#errorPassword{
+    position: absolute;
+    color: #ff0000;
+    left: 65%;
+    top: 26px;
+    font-weight: bolder;
+    visibility: hidden;
+    font-size: 14px;
+}
+
+#errorConfirmPassword{
+    position: absolute;
+    color: #ff0000;
+    left: 65%;
+    top: 26px;
+    font-weight: bolder;
+    visibility: hidden;
+    font-size: 14px;
+}
+#errorPatronymic{
+    position: absolute;
+    color: #ff0000;
+    left: 65%;
+    top: 26px;
+    font-weight: bolder;
+    visibility: hidden;
+    font-size: 14px;
+}
+#errorFirstname{
+    position: absolute;
+    color: #ff0000;
+    left: 65%;
+    top: 26px;
+    font-weight: bolder;
+    visibility: hidden;
+    font-size: 14px;
+}
+#errorLastname{
+    position: absolute;
+    color: #ff0000;
+    left: 65%;
+    top: 26px;
+    font-weight: bolder;
+    visibility: hidden;
+    font-size: 14px;
+}
